@@ -7,14 +7,168 @@
     <meta name="description" content="" />
     <meta
       name="keywords"
-      content="HTML, CSS, JavaScript, institucional, tecnologia, aprendizado, iniciante"
+      content="HTML, CSS, JavaScript, landing page, tecnologia, favicon, navegacao interna e externa"
     />
+
+    <link
+      rel="shortcut icon"
+      href="./public/assets/favicon/favicon.png"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/chalet" />
 
     <link rel="stylesheet" href="./src/styles/reset.css" />
     <link rel="stylesheet" href="./src/styles/index.css" />
     <link rel="stylesheet" href="./src/styles/responsive.css" />
 
-    <title></title>
+    <title>Landing Page</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <img
+          src="./public/assets/images/logos/logo-rockstar.svg"
+          alt="Logo da marca."
+        />
+        <img
+          src="./public/assets/images/logos/logo-gta.svg"
+          alt="Logo do produto."
+        />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#comprar">Comprar</a></li>
+          <li><a href="" target="_blank">Suporte</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="banner" id="home">
+      <img
+        class="banner__background"
+        src="./public/assets/images/bg-main.png"
+        alt="Banner ilustrativo."
+      />
+
+      <div class="banner_info">
+        <div class="banner__list">
+          <img
+            src="./public/assets/images/logos/logo-gta-v.svg"
+            alt="Logo da marca."
+          />
+          <img
+            src="./public/assets/images/logos/logo-gta-online.svg"
+            alt="Logo da marca."
+          />
+        </div>
+        <h1 class="banner__title">
+          Já disponível em todas as plataformas web.
+        </h1>
+        <p class="banner__description">
+          Experimente os fenômenos de entretenimento.
+        </p>
+        <a class="banner__btn-buy" id="#comprar">Comprar</a>
+      </div>
+    </main>
+
+    <section class="products" id="comprar">
+      <h2 class="products__title">Compre já</h2>
+
+      <div class="product">
+        <img
+          class="product__wallpaper"
+          src="./public/assets/images/gta5.jpg"
+          alt="Capa do produto."
+        />
+
+        <div class="product__information">
+          <h3>Produto</h3>
+          <p>
+            Lorem <strong>ipsum</strong> dolor sit amet consectetur adipisicing
+            elit. Asperiores rem nam voluptatibus earum vel mollitia. Odit eos
+            nobis dignissimos asperiores nesciunt, quasi nulla laborum
+            distinctio sapiente ea fugit? Temporibus, sunt.
+          </p>
+          <ul class="product__systems">
+            <li>
+              <img
+                src="./public/assets/images/logos/logo-ps5.svg"
+                alt="Logo de."
+              />
+            </li>
+
+            <li>
+              <img
+                src="./public/assets/images/logos/logo-xbox-series-s.svg"
+                alt="Logo de."
+              />
+            </li>
+
+            <li>
+              <img
+                src="./public/assets/images/logos/logo-xbox-series-s.svg"
+                alt="Logo de."
+              />
+            </li>
+
+            <li>
+              <img
+                src="./public/assets/images/logos/logo-xbox-series-s.svg"
+                alt="Logo de."
+              />
+            </li>
+
+            <li>
+              <img
+                src="./public/assets/images/logos/logo-xbox-series-s.svg"
+                alt="Logo de."
+              />
+            </li>
+          </ul>
+        </div>
+
+        <button class="btn-systems">
+          Selecione o sistema
+          <ul class="product__systems">
+            <li>
+              <img
+                src="./public/assets/images/logos/logo-ps5.svg"
+                alt="Logo de."
+              />
+            </li>
+
+            <li>
+              <img
+                src="./public/assets/images/logos/logo-xbox-series-s.svg"
+                alt="Logo de."
+              />
+            </li>
+
+            <li>
+              <img
+                src="./public/assets/images/logos/logo-xbox-series-s.svg"
+                alt="Logo de."
+              />
+            </li>
+
+            <li>
+              <img
+                src="./public/assets/images/logos/logo-xbox-series-s.svg"
+                alt="Logo de."
+              />
+            </li>
+
+            <li>
+              <img
+                src="./public/assets/images/logos/logo-xbox-series-s.svg"
+                alt="Logo de."
+              />
+            </li>
+          </ul>
+        </button>
+      </div>
+    </section>
+  </body>
 </html>
