@@ -3,6 +3,11 @@
   src: url("../../public/assets/fonts/ChaletComprime.ttf");
 }
 
+body {
+  background-color: #282828;
+  color: #fff;
+}
+
 .header {
   height: 80px;
   padding: 0 80px;
@@ -71,17 +76,42 @@
   max-width: 780px;
 }
 
+.banner__logo-list {
+  display: flex;
+  gap: 32px;
+}
+
 .banner__logo {
   max-width: 150px;
 }
 
 .banner__title {
+  font-family: "CharletComprime";
+  font-size: 55px;
 }
 
 .banner__description {
+  font-family: "Chalet";
+  font-size: 18px;
+  line-height: 1.6;
 }
 
 .banner__btn-buy {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 0.5px solid #fff;
+  border-radius: 4px;
+  font-family: "CharletComprime";
+  font-size: 28px;
+  text-align: center;
+  padding: 20px 40px;
+  width: 50%;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+
+.banner__btn-buy:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 .products {
