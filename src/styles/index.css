@@ -3,6 +3,10 @@
   src: url("../../public/assets/fonts/ChaletComprime.ttf");
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #282828;
   color: #fff;
