@@ -191,8 +191,8 @@ body {
   flex-direction: column;
   gap: 20px;
   transition: all 0.3s ease-in;
-  display: block;
-  opacity: 1;
+  display: none;
+  opacity: 0;
 }
 
 .btn-systems__list--active {
