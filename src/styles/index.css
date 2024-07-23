@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "ChaletComprime";
+  src: url("../../public/assets/fonts/ChaletComprime.ttf");
+}
+
 .header {
   height: 80px;
   padding: 0 80px;
@@ -31,12 +36,43 @@
 }
 
 .banner {
+  display: flex;
+  position: relative;
+  min-height: calc(100vh - 80px);
+}
+
+.banner::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.85),
+    rgba(0, 0, 0, 0.7) 35%,
+    transparent 65%
+  );
 }
 
 .banner__background {
+  width: 100%;
+  object-fit: cover;
 }
 
 .banner__info {
+  position: absolute;
+  z-index: 1;
+  min-height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+  padding: 80px 80px 80px 170px;
+  max-width: 780px;
+}
+
+.banner__logo {
+  max-width: 150px;
 }
 
 .banner__title {
