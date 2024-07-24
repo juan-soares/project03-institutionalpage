@@ -15,6 +15,8 @@
 
 ## Description
 
+Projeto para prática de desenvilvimento web Front-end, utilizando HTML, CSS e JavaScript. Consiste em uma landing page de uma escola de tecnologia fictícia. Ela contém barra de navegação interna, que leva o usuário ao conteúdo respectivo. Possui também um accordion, que exibe e oculta os módulos do curso, ao click do usuário.
+
 ## Demo
 
 ![](demo/demo.gif)
