@@ -22,7 +22,7 @@
     font-size: 40px;
   }
 
-  .product {
+  .course {
     width: 70%;
   }
 }
@@ -32,21 +32,22 @@
     width: 100%;
   }
 
-  .products {
+  .courses {
     padding: 30px;
   }
 
-  .product {
+  .course {
     padding: 80px 20px;
     width: 100%;
   }
 
-  .product__title {
+  .course__title {
     font-size: 35px;
   }
 
-  .product__system-list {
+  .course__system-list {
     flex-direction: column;
+    align-items: center;
   }
 
   .btn-systems {
@@ -65,7 +66,7 @@
     );
   }
 
-  .product__wallpaper {
+  .course__wallpaper {
     max-width: 80%;
   }
 }

@@ -1,4 +1,4 @@
-# 📌 INSTITUTIONAL PAGE: XXX (HTML, CSS, JS)
+# 📌 LANDING PAGE: WEB SCHOOL (HTML, CSS, JS)
 
 ![Badge_Status](https://img.shields.io/badge/STATUS-FINISHED-green)
 ![Badge_Versao](https://img.shields.io/badge/VERSION-1.0-black)
@@ -26,8 +26,8 @@
 ## Features
 
 - Metodologia BEM,
-- ;
-- ;
+- Navegação interna por #ID;
+- Accordion com conteúdo oculto;
 - Responsivo.
 
 ## How to use

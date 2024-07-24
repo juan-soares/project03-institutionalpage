@@ -7,7 +7,7 @@
     <meta name="description" content="" />
     <meta
       name="keywords"
-      content="HTML, CSS, JavaScript, landing page, tecnologia, favicon, navegacao interna e externa"
+      content="HTML, CSS, JavaScript, landing page, tecnologia, favicon, navegacao interna e externa, cursos, escola"
     />
 
     <link
@@ -28,19 +28,23 @@
     <header class="header">
       <div class="header__logo">
         <img
-          src="./public/assets/images/logos/logo-rockstar.svg"
-          alt="Logo da marca."
+          src="./public/assets/images/logos/webschool.png"
+          alt="Logo da escola Web."
         />
-        <img
-          src="./public/assets/images/logos/logo-gta.svg"
-          alt="Logo do produto."
-        />
+        <h1>Web School</h1>
       </div>
       <nav>
         <ul class="header__navbar">
           <li><a class="header__link" href="#home">Home</a></li>
-          <li><a class="header__link" href="#buy">Comprar</a></li>
-          <li><a class="header__link" href="" target="_blank">Suporte</a></li>
+          <li><a class="header__link" href="#cursos">Cursos</a></li>
+          <li>
+            <a
+              class="header__link"
+              href="https://wa.me/5511900000000?text=Obrigado%20por%20seu%20interesse!%20Esta%20%C3%A9%20uma%20mensagem%20utilizada%20apenas%20para%20prática."
+              target="_blank"
+              >Contato</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
@@ -48,53 +52,51 @@
     <main class="banner" id="home">
       <img
         class="banner__background"
-        src="./public/assets/images/banner.png"
-        alt="Banner ilustrativo."
+        src="./public/assets/images/wallpapers/banner.png"
+        alt="Banner ilustrativo contendo painel de códigos de desenvolvimento web."
       />
 
       <div class="banner__info">
         <div class="banner__logo-list">
           <img
             class="banner__logo"
-            src="./public/assets/images/logos/logo-gta-v.svg"
-            alt="Logo da marca."
+            src="./public/assets/images/logos/award-1.png"
+            alt="Logotipo da premiação de ouro."
           />
           <img
             class="banner__logo"
-            src="./public/assets/images/logos/logo-gta-online.svg"
-            alt="Logo da marca."
+            src="./public/assets/images/logos/award-2.png"
+            alt="Logo da premiação de prata."
           />
         </div>
-        <h1 class="banner__title">
-          Já disponível em todas as plataformas web.
-        </h1>
+        <h1 class="banner__title">Seu futuro digital inicia aqui.</h1>
         <p class="banner__description">
-          Experimente os fenômenos de entretenimento.
+          Faça parte dessa transformação, começando por você.
         </p>
-        <a class="banner__btn-buy" href="#buy">Comprar</a>
+        <a class="banner__btn-buy" href="#cursos">Cursos</a>
       </div>
     </main>
 
-    <section class="products" id="buy">
-      <h2 class="products__title">Compre já</h2>
+    <section class="courses" id="cursos">
+      <h2 class="courses__title">Cursos disponíveis</h2>
 
-      <div class="product">
+      <div class="course">
         <img
-          class="product__wallpaper"
-          src="./public/assets/images/gta5.jpg"
-          alt="Capa do produto."
+          class="course__wallpaper"
+          src="./public/assets/images/wallpapers/frontend-course.png"
+          alt="Capa ilustrativa do curso de Front-end."
         />
 
-        <div class="product__info">
-          <h3 class="product__title">Front End</h3>
-          <p class="product__description">
+        <div class="course__info">
+          <h3 class="course__title">Front End</h3>
+          <p class="course__description">
             Crie interfaces interativas, modernas e lindas! Desde o básico de
             HTML, CSS e JavaScript até frameworks modernos como React.js, no
             curso de <strong>Front-end</strong> os alunos aprenderão técnicas
             avançadas para desenvolver websites de alto desempenho e
             usabilidade.
           </p>
-          <ul class="product__system-list">
+          <ul class="course__system-list">
             <li>
               <img
                 src="./public/assets/images/icons/icon-html.webp"
