@@ -19,7 +19,7 @@ Projeto para prática de desenvolvimento web Front-end, utilizando HTML, CSS e J
 
 ## Demo
 
-![](demo/demo.gif)
+![](demo.gif)
 
 ## Technologies
 
